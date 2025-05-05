@@ -1,7 +1,4 @@
 
-@media (min-width: 1400px){
-    
-}
 @media all and (max-width: 1399px){
     /* Home Page */
     .banner-content-right-inner {
@@ -11,18 +8,6 @@
     
 }
 @media all and (max-width: 1199px){
-    /* Header */
-    .mega-list-main-wrap {
-        gap: 16px;
-    }
-    .mega-ads-wrap {
-        width: 230px;
-        flex: 0 0 230px;
-    }
-    /* Footer */
-    .footer-signup-area {
-        max-width: 300px;
-    }
     /* Title */
     .fsp-title-40px {
         font-size: 36px;
@@ -65,18 +50,6 @@
     
 }
 @media all and (max-width: 991px){
-    /* Header */
-    .mega-list-ads-wrap {
-        flex-direction: column;
-    }
-    .mega-ads-wrap {
-        width: 100%;
-        flex: 0 0 auto;
-    }
-    /* Footer */
-    .footer-signup-area {
-        max-width: 318px;
-    }
     /* Title */
     .al-title-20px {
         font-size: 19px;
@@ -153,29 +126,6 @@
     }
 }
 @media all and (max-width: 767px){
-    /* Header */
-    .logo-header .container{
-        padding-right: 18px;
-    }
-    .search-form-control{
-        border-left: 1px solid var(--borderColor);
-    }
-    /* Logo Header */
-    .logo-header{
-        position: sticky;
-        position: -webkit-sticky;
-        top: 0;
-        left: 0;
-        right: 0;
-        -webkit-transition: 0.15s ease-out;
-        -o-transition: 0.15s ease-out;
-        transition: 0.15s ease-out;
-        z-index: 1040;
-        background-color: var(--whiteColor);
-    }
-    .logo-header.header-bg2 {
-        box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.06);
-    }
     /* Title */
     .al-title-20px {
         font-size: 18px;
@@ -239,24 +189,6 @@
     }
 }
 @media all and (max-width: 575px){
-    /* Header */
-    .header-logo{
-        max-width: 140px;
-    }
-    .white-borderless-select.right .list {
-        left: 0;
-        right: auto;
-    }
-    .white-borderless-select.right {
-        float: right;
-    }
-    /* Footer */
-    .footer-nav-area {
-        min-width: calc(50% - 20px);
-    }
-    .footer-signup-area {
-        max-width: 100%;
-    }
     /* Title */
     .fsp-title-40px {
         font-size: 24px;
@@ -322,10 +254,6 @@
 }
 
 @media all and (max-width: 450px){
-    /* Header */
-    .header-logo{
-        max-width: 120px;
-    }
     /* Home Page */
     .banner-title {
         font-size: 50px;
